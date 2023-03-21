@@ -1,6 +1,6 @@
 Ethereum Portfolio Tracker This is a tool to track new pending transactions on the Ethereum blockchain, and notify the user if a transaction involves one of their specified Ethereum addresses.
 
-Requirements 
+Requirements: 
 Python 3.7 or higher 
 web3 library 
 websockets library 
@@ -15,10 +15,11 @@ pip install requirements.txt
 
 Configure the tool by creating a config.json file in the root directory of the repository, with the following contents: 
 
-{ 	"infura_ws": "wss://mainnet.infura.io/ws/v3/YOUR-PROJECT-ID", 
+{ 	
+	"infura_ws": "wss://mainnet.infura.io/ws/v3/YOUR-PROJECT-ID", 
 	"infura_http": "https://mainnet.infura.io/v3/YOUR-PROJECT-ID", 
 	"eth_addresses": [ "0x1234567890123456789012345678901234567890", 
-				"0xabcdefabcdefabcdefabcdefabcdefabcdefabcd" ] 
+			"0xabcdefabcdefabcdefabcdefabcdefabcdefabcd" ] 
 } 
 
 Replace the YOUR-PROJECT-ID placeholders with your Infura project ID. 
