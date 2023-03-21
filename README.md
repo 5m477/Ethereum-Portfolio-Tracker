@@ -8,12 +8,14 @@ websockets library
 colorama library
 pyfiglet library
 
+
 Installation
 Clone the repository to your local machine
 Install the required dependencies using pip:
 pip install web3 websockets colorama pyfiglet
 or
 pip install requirements.txt
+
 
 Configure the tool by creating a config.json file in the root directory of the repository, with the following contents:
 {
@@ -26,6 +28,7 @@ Configure the tool by creating a config.json file in the root directory of the r
 }
 Replace the YOUR-PROJECT-ID placeholders with your Infura project ID.
 Add Ethereum addresses you want to track to the eth_addresses list. You can add as many addresses as you want, separated by commas.
+
 
 Usage
 To start the tool, run python portfolio_tracker.py from the command line.
